@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src = "game.js"></script>
-    <title>Page Title</title>
+    <title>Letter Guess</title>
 
 
 </head>
+
 <body>
-    
+    <h1>Are you Psychic?</h1>
+<h5>Can you guess the letter I'm thinking?<h5>
+<p>Wins:<span id="wins">0</span></p>
+
+<p>Losses:<span id ="losses">0</span></p>
+<p>Guesses Left:<span id="guesses">10</span></p>
+<p>Your wrong guesses thus far: <span id="wrongguess">  </span> </p>
+    <!-- Enter your name: <element onkeydown="compareInputs"> -->
+
+
+<h1 id="message"></h1>
+
+        <script src="assets/javascript/game.js"></script>
+
 </body>
+
 </html>
