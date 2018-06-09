@@ -4,25 +4,31 @@
 <head>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <title>Letter Guess</title>
-
 
 </head>
 
 <body>
-    <h1>Are you Psychic?</h1>
-<h5>Can you guess the letter I'm thinking?<h5>
-<p>Wins:<span id="wins">0</span></p>
+       <div class="jumbotron mx-auto">
+        <h1 class="display-4">You might be Psychic</h1>
+        <p class="lead">Can you guess the letter I'm thinking?</p>
+        <hr class="my-4">
+        <h5>Can you guess the letter I'm thinking?<h5>
+                <p>Wins:<span id="wins">0</span></p>
+                
+                <p>Losses:<span id ="losses">0</span></p>
+                <p>Guesses Remaining:<span id="guesses">10</span></p>
+                <p>Wrong guesses thus far: <span id="wrongguess">  </span> </p>
+                    <!-- Enter your name: <element onkeydown="compareInputs"> -->
+                
+                
+                <h1 id="message"></h1>
+                
+                        <script src="assets/javascript/game.js"></script>      
+      </div>
 
-<p>Losses:<span id ="losses">0</span></p>
-<p>Guesses Left:<span id="guesses">10</span></p>
-<p>Your wrong guesses thus far: <span id="wrongguess">  </span> </p>
-    <!-- Enter your name: <element onkeydown="compareInputs"> -->
 
-
-<h1 id="message"></h1>
-
-        <script src="assets/javascript/game.js"></script>
 
 </body>
 
